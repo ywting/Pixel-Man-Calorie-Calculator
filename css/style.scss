@@ -1,0 +1,172 @@
+/* --- Constants --- */
+
+/* ---  Colour swatch --- */
+// Greyscale level 0 >> black, level 11 >> white
+$greyScaleLevel0: #000;
+$greyScaleLevel1: #010101;
+$greyScaleLevel2: #1a1a1a;
+$greyScaleLevel3: #343434;
+$greyScaleLevel4: #4d4d4d;
+$greyScaleLevel5: #676767;
+$greyScaleLevel6: #808080;
+$greyScaleLevel7: #999;
+$greyScaleLevel8: #b3b3b3;
+$greyScaleLevel9: #ccc;
+$greyScaleLevel10: #e6e6e6;
+$greyScaleLevel11: #fff;
+
+// Blue shades
+$lightBlue: #6a94c2;
+$darkBlue: #295e9a;
+
+/* --- Typography --- */
+// Font family
+$font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+// Font sizes level 0 >> smallest, level 6 >> biggest
+$fontSizeLevel0: 0.75rem;
+$fontSizeLevel1: 0.83rem;
+$fontSizeLevel2: 1rem;
+$fontSizeLevel3: 1.13rem;
+$fontSizeLevel4: 1.5rem;
+$fontSizeLevel5: 2rem;
+
+/* --- SCSS mixins --- */
+
+// Transitions
+@mixin transition($attribute, $duration, $effect) {
+  -webkit-transition: $attribute $duration $effect;
+  -mos-transition: $attribute $duration $effect;
+  -ms-transition: $attribute $duration $effect;
+  transition: $attribute $duration $effect;
+}
+
+@mixin fadeIn() {
+  opacity: 1;
+
+  @include transition(opacity, 0.3s, ease-out);
+}
+
+@mixin fadeOut() {
+  opacity: 0.4;
+  @include transition(opacity, 0.3s, ease-out);
+}
+
+// Formulas
+@mixin aspectRatioHeightGenerator($width, $widthRatio, $heightRatio) {
+  padding-bottom: ($width/$widthRatio) * $heightRatio;
+}
+
+/* --- Base elements --- */
+body {
+  background: $lightBlue;
+  font-family: $font;
+  width: 100%;
+  min-width: 960px;
+}
+
+header {
+  background: $greyScaleLevel1;
+  border-bottom: 5px $greyScaleLevel11 solid;
+}
+
+footer {
+  background: $greyScaleLevel11;
+  color: $greyScaleLevel3;
+  font-size: $fontSizeLevel0;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: (93/960) * 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: $fontSizeLevel5;
+}
+
+h2 {
+  font-style: $fontSizeLevel4;
+}
+
+h3 {
+  font-size: $fontSizeLevel3;
+}
+
+h4 {
+  font-size: $fontSizeLevel2;
+}
+
+h5 {
+  font-size: $fontSizeLevel1;
+}
+
+h6 {
+  font-size: $fontSizeLevel0;
+}
+
+a {
+  color: $greyScaleLevel7;
+  text-decoration: none;
+
+  @include fadeIn();
+
+  &:hover {
+    text-decoration: underline;
+
+    @include fadeOut();
+  }
+}
+
+/* --- Custom styles --- */
+
+// Header section
+.brandContainer {
+  background: url("../img/logos/brand.svg");
+  width: (160/960) * 100%;
+  @include aspectRatioHeightGenerator(((160/960) * 100%), 160, 88);
+  margin-left: (70/960) * 100%;
+}
+
+// App title
+.appTitleContainer {
+  width: 100% - ((93/960) * 100%);
+  background: $greyScaleLevel3;
+  color: $greyScaleLevel11;
+  padding-top: (16/867) * 100%;
+  padding-bottom: (16/867) * 100%;
+  padding-left: (93/960) * 100%;
+}
+
+// Input section
+.inputContainer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+// Results section
+.results {
+
+}
+
+.resultsTitleContainer {
+  width: 100% - ((93/960) * 100%);
+  background: $greyScaleLevel3 url("../img/icons/div_results_title.svg") no-repeat center;
+  color: $greyScaleLevel11;
+  background-size: 100%;
+  padding-top: (16/867) * 100%;
+  padding-bottom: (16/867) * 100%;
+  padding-left: (93/960) * 100%;
+}
+
+.resultsContainer {
+  background: $darkBlue;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footerIconicLink {
+  font-weight: 700;
+}
