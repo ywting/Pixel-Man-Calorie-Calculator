@@ -4,5 +4,5 @@ Redesigning and porting of the Pixel Calorie Calculator: http://www.comp.nus.edu
 
 TODO
 ==================
-- Create brand logo (running stick man)
-- Create sections for the various inputs
+- Complete results section
+- Update project description
