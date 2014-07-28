@@ -4,7 +4,7 @@
 /* --- SCSS mixins --- */
 /* --- Base elements --- */
 body {
-  background: #6a94c2;
+  background: transparent;
   color: white;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1rem;
@@ -69,10 +69,26 @@ button {
   border-top: 5px #676767 solid;
   border-left: 5px #676767 solid;
   border-bottom: 5px #010101 solid;
-  border-right: 5px #010101 solid; }
+  border-right: 5px #010101 solid;
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-out;
+  -mos-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out; }
+  button:hover {
+    opacity: 0.4;
+    -webkit-transition: opacity 0.3s ease-out;
+    -mos-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out; }
   button:active {
     padding: 0.8125rem;
-    border: none; }
+    border: none;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-out;
+    -mos-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out; }
 
 /* --- Custom styles --- */
 .brandContainer {
@@ -104,7 +120,7 @@ button {
 
 .inputRadioButtonOption {
   display: inline-block;
-  width: 5rem;
+  width: 3rem;
   text-align: center; }
 
 .informationIcon {
@@ -153,11 +169,6 @@ button {
   .resultsTabulated h3 {
     display: inline-block;
     color: #ffcd81; }
-
-.footerStickedToBottom {
-  position: absolute;
-  width: 90.3125%;
-  bottom: 0; }
 
 .footerIconicLink {
   font-weight: 700; }

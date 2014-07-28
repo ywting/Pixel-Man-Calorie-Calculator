@@ -62,7 +62,7 @@ $fontSizeLevel5: 2rem;
 
 /* --- Base elements --- */
 body {
-  background: $lightBlue;
+  background: transparent;
   color: $greyScaleLevel11;
   font-family: $font;
   font-size: $fontSizeLevel2;
@@ -136,9 +136,17 @@ button {
   border-bottom: 5px $greyScaleLevel1 solid;
   border-right: 5px $greyScaleLevel1 solid;
 
+  @include fadeIn();
+
+  &:hover {
+    @include fadeOut();
+  }
+
   &:active {
     padding: 0.8125rem;
     border: none;
+
+    @include fadeIn();
   }
 }
 
@@ -181,7 +189,7 @@ button {
 
 .inputRadioButtonOption {
   display: inline-block;
-  width: 5rem;
+  width: 3rem;
   text-align: center;
 }
 
@@ -245,13 +253,6 @@ button {
 }
 
 // Footer section
-
-.footerStickedToBottom {
-  position: absolute;
-  width: 100% - (93/960) * 100%;
-  bottom: 0;
-}
-
 .footerIconicLink {
   font-weight: 700;
 }
