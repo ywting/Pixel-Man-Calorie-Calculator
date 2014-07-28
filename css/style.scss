@@ -145,7 +145,7 @@ a {
 .inputContainer {
   background: $lightBlue;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 .inputRow {
@@ -180,10 +180,6 @@ a {
 }
 
 // Results section
-.results {
-
-}
-
 .resultsTitleContainer {
   width: 100% - ((93/960) * 100%);
   background: $greyScaleLevel3 url("../img/icons/div_results_title.svg") no-repeat center;
@@ -196,7 +192,27 @@ a {
 .resultsContainer {
   background: $darkBlue;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.resultsRow {
+  margin-bottom: 1.5rem;
+}
+
+.resultsLabel {
+  display: inline-block;
+  width: (470/960) * 100%;
+  text-align: right;
+}
+
+.resultsTabulated {
+  display: inline-block;
+  text-align: left;
+
+  h3 {
+    display: inline-block;
+    color: #ffcd81;
+  }
 }
 
 // Footer section

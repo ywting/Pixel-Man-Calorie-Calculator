@@ -77,7 +77,7 @@ a {
 .inputContainer {
   background: #6a94c2;
   padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 0.5rem; }
 
 .inputRow {
   margin-bottom: 1.5rem; }
@@ -116,7 +116,22 @@ a {
 .resultsContainer {
   background: #295e9a;
   padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 0.5rem; }
+
+.resultsRow {
+  margin-bottom: 1.5rem; }
+
+.resultsLabel {
+  display: inline-block;
+  width: 48.95833%;
+  text-align: right; }
+
+.resultsTabulated {
+  display: inline-block;
+  text-align: left; }
+  .resultsTabulated h3 {
+    display: inline-block;
+    color: #ffcd81; }
 
 .footerIconicLink {
   font-weight: 700; }
