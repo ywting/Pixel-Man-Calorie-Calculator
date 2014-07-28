@@ -86,36 +86,45 @@
 
             <span class="informationLabel"><i class="informationIcon"></i> Number of times you exercise a week (>1 hr)</span>
         </div>
+
+         <div class="inputButton">
+             <button>Calculate</button>
+         </div>
     </div>
 
     <!-- Results section -->
-    <div class="resultsTitleContainer">
-        <h2>Results</h2>
+    <div id="resultsSection" class="hideSection">
+
+        <div class="resultsTitleContainer">
+            <h2>Results</h2>
+        </div>
+
+        <div class="resultsContainer">
+            <div class="resultsRow">
+                <span class="resultsLabel">Your BMI is: </span>
+                <span id="resultsBMI" class="resultsTabulated"><h3>12.32</h3></span>
+            </div>
+
+            <div class="resultsRow">
+                <span class="resultsLabel">To maintain your current weight, you need: </span>
+                <span id="resultsMaintainWeight" class="resultsTabulated"><h3>2000 calories</h3> a day</span>
+            </div>
+
+            <div class="resultsRow">
+                <span class="resultsLabel">To lose 0.453kg a week, you need: </span>
+                <span id="resultsLoseWeight" class="resultsTabulated"><h3>1500 calories</h3> a day</span>
+            </div>
+
+            <div class="resultsRow">
+                <span class="resultsLabel">To gain 0.453kg a week, you need:  </span>
+                <span id="resultsGainWeight" class="resultsTabulated"><h3>2500 calories</h3> a day</span>
+            </div>
+        </div>
+
     </div>
 
-    <div class="resultsContainer">
-        <div class="resultsRow">
-            <span class="resultsLabel">Your BMI is: </span>
-            <span id="resultsBMI" class="resultsTabulated"><h3>12.32</h3></span>
-        </div>
-
-        <div class="resultsRow">
-            <span class="resultsLabel">To maintain your current weight, you need: </span>
-            <span id="resultsMaintainWeight" class="resultsTabulated"><h3>2000 calories</h3> a day</span>
-        </div>
-
-        <div class="resultsRow">
-            <span class="resultsLabel">To lose 0.453kg a week, you need: </span>
-            <span id="resultsLoseWeight" class="resultsTabulated"><h3>1500 calories</h3> a day</span>
-        </div>
-
-        <div class="resultsRow">
-            <span class="resultsLabel">To gain 0.453kg a week, you need:  </span>
-            <span id="resultsGainWeight" class="resultsTabulated"><h3>2500 calories</h3> a day</span>
-        </div>
-    </div>
-
-    <footer>
+    <!-- Footer section -->
+    <footer class="footerStickedToBottom">
         <span>© 2014 Pixel Man Calorie Calculator. Ting Yi Wei | <a class="footerIconicLink" href="#">iconic foundry</a>.</span>
 
         <address class="footerContact">

@@ -62,7 +62,7 @@ $fontSizeLevel5: 2rem;
 
 /* --- Base elements --- */
 body {
-  background: transparent;
+  background: $lightBlue;
   color: $greyScaleLevel11;
   font-family: $font;
   font-size: $fontSizeLevel2;
@@ -125,6 +125,23 @@ a {
   }
 }
 
+button {
+  background: $greyScaleLevel3;
+  box-shadow: none;
+  color: $greyScaleLevel11;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-top: 5px $greyScaleLevel5 solid;
+  border-left: 5px $greyScaleLevel5 solid;
+  border-bottom: 5px $greyScaleLevel1 solid;
+  border-right: 5px $greyScaleLevel1 solid;
+
+  &:active {
+    padding: 0.8125rem;
+    border: none;
+  }
+}
+
 /* --- Custom styles --- */
 
 // Header section
@@ -182,10 +199,19 @@ a {
   margin-left: 1rem;
 }
 
+.inputButton {
+  margin-left: (286/960) * 100%;
+  margin-bottom: 1.5rem;
+}
+
 // Results section
+.hideSection {
+  display: none;
+}
+
 .resultsTitleContainer {
   width: 100% - ((93/960) * 100%);
-  background: $greyScaleLevel3 url("../img/icons/div_results_title.svg") no-repeat center;
+  background: transparent url("../img/icons/div_results_title.svg") no-repeat center;
   background-size: 100%;
   padding-top: (16/960) * 100%;
   padding-bottom: (16/960) * 100%;
@@ -219,6 +245,12 @@ a {
 }
 
 // Footer section
+
+.footerStickedToBottom {
+  position: absolute;
+  width: 100% - (93/960) * 100%;
+  bottom: 0;
+}
 
 .footerIconicLink {
   font-weight: 700;

@@ -4,7 +4,7 @@
 /* --- SCSS mixins --- */
 /* --- Base elements --- */
 body {
-  background: transparent;
+  background: #6a94c2;
   color: white;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1rem;
@@ -60,6 +60,20 @@ a {
     -ms-transition: opacity 0.3s ease-out;
     transition: opacity 0.3s ease-out; }
 
+button {
+  background: #343434;
+  box-shadow: none;
+  color: white;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-top: 5px #676767 solid;
+  border-left: 5px #676767 solid;
+  border-bottom: 5px #010101 solid;
+  border-right: 5px #010101 solid; }
+  button:active {
+    padding: 0.8125rem;
+    border: none; }
+
 /* --- Custom styles --- */
 .brandContainer {
   background: url("../img/logos/brand.svg");
@@ -105,9 +119,16 @@ a {
   font-style: italic;
   margin-left: 1rem; }
 
+.inputButton {
+  margin-left: 29.79167%;
+  margin-bottom: 1.5rem; }
+
+.hideSection {
+  display: none; }
+
 .resultsTitleContainer {
   width: 90.3125%;
-  background: #343434 url("../img/icons/div_results_title.svg") no-repeat center;
+  background: transparent url("../img/icons/div_results_title.svg") no-repeat center;
   background-size: 100%;
   padding-top: 1.66667%;
   padding-bottom: 1.66667%;
@@ -132,6 +153,11 @@ a {
   .resultsTabulated h3 {
     display: inline-block;
     color: #ffcd81; }
+
+.footerStickedToBottom {
+  position: absolute;
+  width: 90.3125%;
+  bottom: 0; }
 
 .footerIconicLink {
   font-weight: 700; }
