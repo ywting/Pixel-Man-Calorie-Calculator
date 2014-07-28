@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.2" baseProfile="tiny" id="envelop_1_"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 12"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 9 6"
 	 xml:space="preserve">
 <g id="envelop">
-	<path fill-rule="evenodd" d="M1.5,3v6h9V3H1.5z M9.75,3.453L6,6.172L2.25,3.453H9.75z M10.047,8.547H1.953V3.75L6,6.516
-		l4.047-2.766V8.547z"/>
+	<path fill-rule="evenodd" d="M0,0v6h9V0H0z M8.25,0.453L4.5,3.172L0.75,0.453H8.25z M8.547,5.547H0.453V0.75L4.5,3.516L8.547,0.75
+		V5.547z"/>
 </g>
 </svg>

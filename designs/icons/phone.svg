@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.2" baseProfile="tiny" id="homeButton_1_"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 12"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 6 9"
 	 xml:space="preserve">
 <g id="homeButton">
-	<path d="M3,1.5v9h6v-9H3z M6.45,10.2h-0.9V9.3h0.9V10.2z M8.25,9h-4.5V2.25h4.5V9z"/>
+	<path d="M0,0v9h6V0H0z M3.45,8.7h-0.9V7.8h0.9V8.7z M5.25,7.5h-4.5V0.75h4.5V7.5z"/>
 </g>
 </svg>
