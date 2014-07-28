@@ -19,6 +19,9 @@ $greyScaleLevel11: #fff;
 $lightBlue: #6a94c2;
 $darkBlue: #295e9a;
 
+// Yellow shades
+$lightYellow: #ffcd81;
+
 /* --- Typography --- */
 // Font family
 $font: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -211,7 +214,7 @@ a {
 
   h3 {
     display: inline-block;
-    color: #ffcd81;
+    color: $lightYellow;
   }
 }
 
