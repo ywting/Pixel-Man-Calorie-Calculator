@@ -60,6 +60,7 @@ $fontSizeLevel5: 2rem;
 /* --- Base elements --- */
 body {
   background: $lightBlue;
+  color: $greyScaleLevel11;
   font-family: $font;
   width: 100%;
   min-width: 960px;
@@ -134,7 +135,6 @@ a {
 .appTitleContainer {
   width: 100% - ((93/960) * 100%);
   background: $greyScaleLevel3;
-  color: $greyScaleLevel11;
   padding-top: (16/867) * 100%;
   padding-bottom: (16/867) * 100%;
   padding-left: (93/960) * 100%;
@@ -154,7 +154,6 @@ a {
 .resultsTitleContainer {
   width: 100% - ((93/960) * 100%);
   background: $greyScaleLevel3 url("../img/icons/div_results_title.svg") no-repeat center;
-  color: $greyScaleLevel11;
   background-size: 100%;
   padding-top: (16/867) * 100%;
   padding-bottom: (16/867) * 100%;
@@ -169,4 +168,20 @@ a {
 
 .footerIconicLink {
   font-weight: 700;
+}
+
+.emailIcon {
+  display: inline-block;
+  width: $fontSizeLevel0;
+  height: $fontSizeLevel0;
+  background: transparent url("../img/icons/mail.svg") no-repeat left bottom;
+  background-size: 100%;
+}
+
+.phoneIcon {
+  display: inline-block;
+  width: $fontSizeLevel0;
+  height: $fontSizeLevel0;
+  background: transparent url("../img/icons/phone.svg") no-repeat center center;
+  background-size: contain;
 }
