@@ -59,9 +59,10 @@ $fontSizeLevel5: 2rem;
 
 /* --- Base elements --- */
 body {
-  background: $lightBlue;
+  background: transparent;
   color: $greyScaleLevel11;
   font-family: $font;
+  font-size: $fontSizeLevel2;
   width: 100%;
   min-width: 960px;
 }
@@ -142,8 +143,40 @@ a {
 
 // Input section
 .inputContainer {
+  background: $lightBlue;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.inputRow {
+  margin-bottom: 1.5rem;
+}
+
+.inputRowLabel {
+  display: inline-block;
+  width: (283/960) * 100%;
+  text-align: right;
+  margin-right: 0.5rem;
+}
+
+.inputRadioButtonOption {
+  display: inline-block;
+  width: 5rem;
+  text-align: center;
+}
+
+.informationIcon {
+  display: inline-block;
+  width: $fontSizeLevel2;
+  height: $fontSizeLevel2;
+  background: transparent url("../img/icons/information.svg") no-repeat center;
+  background-size: 100%;
+}
+
+.informationLabel {
+  color: $greyScaleLevel10;
+  font-style: italic;
+  margin-left: 1rem;
 }
 
 // Results section
@@ -155,8 +188,8 @@ a {
   width: 100% - ((93/960) * 100%);
   background: $greyScaleLevel3 url("../img/icons/div_results_title.svg") no-repeat center;
   background-size: 100%;
-  padding-top: (16/867) * 100%;
-  padding-bottom: (16/867) * 100%;
+  padding-top: (16/960) * 100%;
+  padding-bottom: (16/960) * 100%;
   padding-left: (93/960) * 100%;
 }
 

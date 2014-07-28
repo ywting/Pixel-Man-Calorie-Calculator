@@ -4,9 +4,10 @@
 /* --- SCSS mixins --- */
 /* --- Base elements --- */
 body {
-  background: #6a94c2;
+  background: transparent;
   color: white;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
   width: 100%;
   min-width: 960px; }
 
@@ -74,15 +75,42 @@ a {
   padding-left: 9.6875%; }
 
 .inputContainer {
+  background: #6a94c2;
   padding-top: 2rem;
   padding-bottom: 2rem; }
+
+.inputRow {
+  margin-bottom: 1.5rem; }
+
+.inputRowLabel {
+  display: inline-block;
+  width: 29.47917%;
+  text-align: right;
+  margin-right: 0.5rem; }
+
+.inputRadioButtonOption {
+  display: inline-block;
+  width: 5rem;
+  text-align: center; }
+
+.informationIcon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: transparent url("../img/icons/information.svg") no-repeat center;
+  background-size: 100%; }
+
+.informationLabel {
+  color: #e6e6e6;
+  font-style: italic;
+  margin-left: 1rem; }
 
 .resultsTitleContainer {
   width: 90.3125%;
   background: #343434 url("../img/icons/div_results_title.svg") no-repeat center;
   background-size: 100%;
-  padding-top: 1.84544%;
-  padding-bottom: 1.84544%;
+  padding-top: 1.66667%;
+  padding-bottom: 1.66667%;
   padding-left: 9.6875%; }
 
 .resultsContainer {
