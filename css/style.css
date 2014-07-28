@@ -29,7 +29,7 @@ h1 {
   font-size: 2rem; }
 
 h2 {
-  font-style: 1.5rem; }
+  font-size: 1.5rem; }
 
 h3 {
   font-size: 1.13rem; }
@@ -92,6 +92,9 @@ a {
 
 .footerIconicLink {
   font-weight: 700; }
+
+.footerContact {
+  margin-top: 0.5rem; }
 
 .emailIcon {
   display: inline-block;
