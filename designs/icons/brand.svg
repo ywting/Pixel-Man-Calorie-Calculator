@@ -1,83 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 75 41.25" xml:space="preserve">
+	 y="0px" viewBox="0 0 750 412.5" xml:space="preserve">
 <g id="background_1_">
 	<g id="background">
-		<rect fill-rule="evenodd" fill="#010101" width="75" height="41.25"/>
+		<rect fill-rule="evenodd" fill="#010101" width="750" height="412.5"/>
 	</g>
 </g>
 <g id="stickman_1_">
 	<g id="stickman">
-		<path fill-rule="evenodd" fill="#FFFFFF" d="M49.675,27.991v-2.455H47.24v2.455H49.675z M39.935,30.446h2.435v-2.455h-2.435
-			V30.446z M30.195,20.625v2.455h4.87v-2.455H30.195z M35.065,23.08v2.455H37.5V23.08H35.065z M52.11,30.446v-2.455h-2.435v2.455
-			H52.11z M59.416,35.357v-2.455h-4.87v2.455H59.416z M56.981,23.08h2.435v-2.455h-2.435V23.08z M54.545,32.902v-2.455H52.11v2.455
-			H54.545z M37.5,25.536v2.455h2.435v-2.455H37.5z M54.545,18.17v2.455h2.435V18.17H54.545z M59.416,13.259V5.893H52.11v7.12h-4.87
-			v2.455h4.87v2.701h2.435v-4.911H59.416z M54.545,8.348h2.435v2.455h-2.435V8.348z M59.416,20.625h2.435V18.17h-2.435V20.625z
-			 M61.851,15.714v2.455h2.435v-2.455H61.851z M44.805,17.924h2.435v-2.455h-2.435V17.924z M44.805,25.536h2.435V23.08h-2.435
-			V25.536z M47.24,23.08h2.435v-2.455H47.24V23.08z M42.37,27.991h2.435v-2.455H42.37V27.991z M42.37,20.379h2.435v-2.455H42.37
-			V20.379z M49.675,20.625h2.435V18.17h-2.435V20.625z"/>
+		<path fill-rule="evenodd" fill="#FFFFFF" d="M399.351,304.464h24.351v-24.554h-24.351V304.464z M301.948,206.25v24.554h48.701
+			V206.25H301.948z M375,255.357v24.554h24.351v-24.554H375z M350.649,230.804v24.554H375v-24.554H350.649z M496.753,279.911
+			v-24.554h-24.351v24.554H496.753z M569.805,230.804h24.351V206.25h-24.351V230.804z M594.156,353.571v-24.554h-48.701v24.554
+			H594.156z M521.104,304.464v-24.554h-24.351v24.554H521.104z M545.455,329.018v-24.554h-24.351v24.554H545.455z M472.403,230.804
+			h24.351V206.25h-24.351V230.804z M594.156,206.25h24.351v-24.554h-24.351V206.25z M594.156,132.589V58.929h-73.052v71.205h-48.701
+			v24.554h48.701v27.009h24.351v-49.107H594.156z M545.455,83.482h24.351v24.554h-24.351V83.482z M545.455,181.696v24.554h24.351
+			v-24.554H545.455z M618.506,157.143v24.554h24.351v-24.554H618.506z M423.701,279.911h24.351v-24.554h-24.351V279.911z
+			 M496.753,206.25h24.351v-24.554h-24.351V206.25z M448.052,255.357h24.351v-24.554h-24.351V255.357z M423.701,203.795h24.351
+			v-24.554h-24.351V203.795z M448.052,179.241h24.351v-24.554h-24.351V179.241z"/>
 	</g>
 </g>
 <g id="trail_1_">
 	<g id="trail1_1_">
 		<g id="Rectangle_1">
-			<rect x="25.325" y="25.536" fill-rule="evenodd" fill="#FFFFFF" width="2.435" height="2.455"/>
+			<rect x="253.359" y="255.469" fill-rule="evenodd" fill="#FFFFFF" width="24.141" height="24.375"/>
 		</g>
 		<g id="Rectangle_1_copy">
-			<rect x="22.89" y="25.536" fill-rule="evenodd" fill="#E6E6E6" width="2.435" height="2.455"/>
+			<rect x="228.984" y="255.469" fill-rule="evenodd" fill="#E6E6E6" width="24.375" height="24.375"/>
 		</g>
 		<g id="Rectangle_1_copy_2">
-			<rect x="20.455" y="25.536" fill-rule="evenodd" fill="#CCCCCC" width="2.435" height="2.455"/>
+			<rect x="204.609" y="255.469" fill-rule="evenodd" fill="#CCCCCC" width="24.375" height="24.375"/>
 		</g>
 		<g id="Rectangle_1_copy_3">
-			<rect x="18.019" y="25.536" fill-rule="evenodd" fill="#B3B3B3" width="2.435" height="2.455"/>
+			<rect x="180.234" y="255.469" fill-rule="evenodd" fill="#B3B3B3" width="24.375" height="24.375"/>
 		</g>
 		<g id="Rectangle_1_copy_4">
-			<rect x="15.584" y="25.536" fill-rule="evenodd" fill="#999999" width="2.435" height="2.455"/>
+			<rect x="155.859" y="255.469" fill-rule="evenodd" fill="#999999" width="24.375" height="24.375"/>
 		</g>
 		<g id="Rectangle_1_copy_5">
-			<rect x="13.149" y="25.536" fill-rule="evenodd" fill="#808080" width="2.435" height="2.455"/>
+			<rect x="131.484" y="255.469" fill-rule="evenodd" fill="#808080" width="24.375" height="24.375"/>
 		</g>
 		<g id="Rectangle_1_copy_6">
-			<rect x="10.714" y="25.536" fill-rule="evenodd" fill="#676767" width="2.435" height="2.455"/>
+			<rect x="107.109" y="255.469" fill-rule="evenodd" fill="#676767" width="24.375" height="24.375"/>
 		</g>
 	</g>
 	<g id="trail2_1_">
 		<g id="Rectangle_1_copy_1_">
-			<rect x="22.89" y="20.625" fill-rule="evenodd" fill="#E6E6E6" width="2.435" height="2.455"/>
+			<rect x="228.984" y="206.25" fill-rule="evenodd" fill="#E6E6E6" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_2_1_">
-			<rect x="20.455" y="20.625" fill-rule="evenodd" fill="#CCCCCC" width="2.435" height="2.455"/>
+			<rect x="204.609" y="206.25" fill-rule="evenodd" fill="#CCCCCC" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_3_1_">
-			<rect x="18.019" y="20.625" fill-rule="evenodd" fill="#B3B3B3" width="2.435" height="2.455"/>
+			<rect x="180.234" y="206.25" fill-rule="evenodd" fill="#B3B3B3" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_4_1_">
-			<rect x="15.584" y="20.625" fill-rule="evenodd" fill="#999999" width="2.435" height="2.455"/>
+			<rect x="155.859" y="206.25" fill-rule="evenodd" fill="#999999" width="24.375" height="24.609"/>
 		</g>
 	</g>
 	<g id="trail3_1_">
 		<g id="Rectangle_1_1_">
-			<rect x="25.325" y="15.714" fill-rule="evenodd" fill="#FFFFFF" width="2.435" height="2.455"/>
+			<rect x="253.359" y="157.031" fill-rule="evenodd" fill="#FFFFFF" width="24.141" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_2_">
-			<rect x="22.89" y="15.714" fill-rule="evenodd" fill="#E6E6E6" width="2.435" height="2.455"/>
+			<rect x="228.984" y="157.031" fill-rule="evenodd" fill="#E6E6E6" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_2_2_">
-			<rect x="20.455" y="15.714" fill-rule="evenodd" fill="#CCCCCC" width="2.435" height="2.455"/>
+			<rect x="204.609" y="157.031" fill-rule="evenodd" fill="#CCCCCC" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_3_2_">
-			<rect x="18.019" y="15.714" fill-rule="evenodd" fill="#B3B3B3" width="2.435" height="2.455"/>
+			<rect x="180.234" y="157.031" fill-rule="evenodd" fill="#B3B3B3" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_4_2_">
-			<rect x="15.584" y="15.714" fill-rule="evenodd" fill="#999999" width="2.435" height="2.455"/>
+			<rect x="155.859" y="157.031" fill-rule="evenodd" fill="#999999" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_5_1_">
-			<rect x="13.149" y="15.714" fill-rule="evenodd" fill="#808080" width="2.435" height="2.455"/>
+			<rect x="131.484" y="157.031" fill-rule="evenodd" fill="#808080" width="24.375" height="24.609"/>
 		</g>
 		<g id="Rectangle_1_copy_6_1_">
-			<rect x="10.714" y="15.714" fill-rule="evenodd" fill="#676767" width="2.435" height="2.455"/>
+			<rect x="107.109" y="157.031" fill-rule="evenodd" fill="#676767" width="24.375" height="24.609"/>
 		</g>
 	</g>
 </g>
