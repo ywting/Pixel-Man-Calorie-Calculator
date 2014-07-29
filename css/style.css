@@ -62,10 +62,12 @@ a {
 
 button {
   background: #343434;
+  width: 7.25rem;
+  height: 3rem;
   box-shadow: none;
   color: white;
   font-weight: 700;
-  padding: 0.5rem;
+  cursor: pointer;
   border-top: 5px #676767 solid;
   border-left: 5px #676767 solid;
   border-bottom: 5px #010101 solid;
@@ -90,7 +92,24 @@ button {
     -ms-transition: opacity 0.3s ease-out;
     transition: opacity 0.3s ease-out; }
 
+input:not([type=submit]):not([type=file]):not([type=radio]):not([type=checkbox]) {
+  width: 7rem;
+  height: 2rem;
+  color: #1a1a1a;
+  font-size: 1.13rem;
+  border: 1px solid #cccccc;
+  padding: 1px;
+  -moz-box-shadow: inset 1px 3px 1px -3px black;
+  -webkit-box-shadow: inset 1px 3px 1px -3px black;
+  box-shadow: inset 1px 3px 1px -3px black; }
+
 /* --- Custom styles --- */
+.statusSuccess {
+  color: #70dc70 !important; }
+
+.statusAlert {
+  color: #ec3030 !important; }
+
 .brandContainer {
   background: url("../img/logos/brand.svg");
   width: 16.66667%;
@@ -115,6 +134,8 @@ button {
 .inputRowLabel {
   display: inline-block;
   width: 29.47917%;
+  font-size: 1.13rem;
+  font-weight: 700;
   text-align: right;
   margin-right: 0.5rem; }
 
@@ -123,12 +144,20 @@ button {
   width: 3rem;
   text-align: center; }
 
-.informationIcon {
+.iconInformation, .iconSuccess, .iconAlert {
   display: inline-block;
   width: 1rem;
   height: 1rem;
-  background: transparent url("../img/icons/information.svg") no-repeat center;
   background-size: 100%; }
+
+.iconInformation {
+  background: transparent url("../img/icons/information.svg") no-repeat center; }
+
+.iconSuccess {
+  background: transparent url("../img/icons/success.svg") no-repeat center; }
+
+.iconAlert {
+  background: transparent url("../img/icons/alert.svg") no-repeat center; }
 
 .informationLabel {
   color: #e6e6e6;
@@ -136,11 +165,23 @@ button {
   margin-left: 1rem; }
 
 .inputButton {
-  margin-left: 29.79167%;
+  margin-left: 30.41667%;
   margin-bottom: 1.5rem; }
 
 .hideSection {
-  display: none; }
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 1.5s ease-out;
+  -mos-transition: all 1.5s ease-out;
+  -ms-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out; }
+
+.showSection {
+  max-height: 999px;
+  -webkit-transition: all 1.5s ease-out;
+  -mos-transition: all 1.5s ease-out;
+  -ms-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out; }
 
 .resultsTitleContainer {
   width: 90.3125%;
@@ -165,10 +206,8 @@ button {
 
 .resultsTabulated {
   display: inline-block;
+  color: #ffcd81;
   text-align: left; }
-  .resultsTabulated h3 {
-    display: inline-block;
-    color: #ffcd81; }
 
 .footerIconicLink {
   font-weight: 700; }
